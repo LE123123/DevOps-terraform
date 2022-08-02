@@ -5,7 +5,6 @@ provider "aws" {
 variable "vpc_name" {
   description = "생성되는 VPC의 이름"
   type        = string
-  default     = "default"
 }
 
 locals {
